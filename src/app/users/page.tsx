@@ -69,10 +69,10 @@ export default async function Page() {
                     </span>
                   </td>
                   <td className="px-5 py-4">
-                    <div className="flex gap-3">
+                    <div className="flex gap-2">
                       <Link
                         href={`/users/${user.id}/edit`}
-                        className="text-blue-600 hover:text-blue-700 font-medium"
+                        className="inline-flex items-center px-3 py-1.5 rounded-lg text-xs font-medium bg-blue-50 text-blue-600 hover:bg-blue-100 transition-colors"
                       >
                         Edit
                       </Link>
